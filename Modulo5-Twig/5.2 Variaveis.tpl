@@ -1,5 +1,5 @@
 Criando uma nova variável
-´´´{% set teste = "Teste" %}´´´ > ´´´{{ teste }}´´´
+```{% set teste = "Teste" %}``` > ```{{ teste }}```
 
 Variáveis mais utilizadas em uma loja Nuvem🛍 
 - product
