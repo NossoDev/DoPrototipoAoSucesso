@@ -1,0 +1,11 @@
+.btn {
+    /* Respiro interno entre o conteúdo e o limite do elemento */
+    padding: 15px; /* 15px nos 4 cantos */
+    padding: 10px 15px; /* 10px cima e baixo, 15px esquerda e direita */
+    padding: 10px 15px 10px 15px; /* cima, direita, baixo, esquerda */
+
+    /* espaço exteno entre o elemento e o redor dele */
+    margin: 15px; /* 15px nos 4 cantos */
+    margin: 10px 15px; /* 10px cima e baixo, 15px esquerda e direita */
+    margin: 10px 15px 10px 15px; /* cima, direita, baixo, esquerda */ 
+}

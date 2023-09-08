@@ -1,0 +1,31 @@
+/* Tags */
+body {}
+table {}
+ul {}
+
+/* IDs */
+#single-product {}
+#main-header {}
+#main-footer {}
+
+/* Classes */
+.product-name {}
+.product-price {}
+.product-btn {}
+
+/* *** RELAÇÕES *** */
+/* Espaço = TODOS os filhos, sem importar o grau */
+.item p {
+    text-align: center;
+}
+
+/* > = TODOS os filhos de primeiro grau */
+.item > div {
+    width: 100%;
+}
+
+/* > = TODOS os irmãos do elemento */
+
+.menu > ul > li > a + a {
+    opacity: 0.5;
+}

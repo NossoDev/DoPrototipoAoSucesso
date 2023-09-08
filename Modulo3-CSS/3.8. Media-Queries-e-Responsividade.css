@@ -1,0 +1,24 @@
+/* Mostra conteúdo com tela de no máximo 767px de largura */
+@media (max-width: 767px) {
+    .mobile {
+        display:block;
+    }
+}
+
+/* Mostra conteúdo com tela de no mínimo 767px de largura */
+@media (min-width: 767px) {
+    .mobile {
+        display:none;
+    }
+}
+
+/* Mostra conteúdo com tela de no mínimo 640px e máximo de 1366px de largura */
+/* O padrão definido é display:none para qualquer tela, exceto pelo media queries definido */
+.tablet {
+    display:none;
+}
+@media (min-width: 640px) and (max-width: 1366px) {
+    .tablet {
+        display:block;
+    }
+}

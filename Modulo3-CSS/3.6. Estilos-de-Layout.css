@@ -1,0 +1,17 @@
+.col {
+    width:50%;
+    float:left; /* flutura para a esquerda */
+    float:right; /* flutura para a direita */
+}
+
+.box {
+    position: relative; /* mantem a posição atual sem deslocar os demais */
+    position: absolute; /* posição absoluta de acordo com o primeiro 'relative' pai */
+    position: fixed; /* posição fixa de acordo com a tela */
+}
+
+.flex {
+    display: flex; 
+    justify-content: center; /* alinha o conteúdo horizontalmente */
+    align-items: center; /* alinha o conteúdo verticalmente */
+}

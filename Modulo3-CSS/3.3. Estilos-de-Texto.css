@@ -1,0 +1,8 @@
+.texto {
+    font-family: 'Open Sans', sans-serif; /* Familia tipográfica */
+    font-size: 1rem; /* Tamanho da fonte */
+    color: #000; /* Cor da fonte em hexadecimal ou RGB */
+    font-weight: 600; /* Peso da fonte */
+    text-transform: uppercase; /* Maiúsculo ou minúsculo */
+    text-decoration: underline /* underline no texto */
+}

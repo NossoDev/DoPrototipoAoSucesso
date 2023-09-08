@@ -1,0 +1,21 @@
+ul {
+    display:block;
+    padding:0;
+}
+
+ul li {
+    display:inline;
+}
+
+ul li a {
+    display:block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+ul li a:hover {
+    background-color: #333;
+}
