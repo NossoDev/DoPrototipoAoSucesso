@@ -1,18 +1,17 @@
-# Requisições 
+# Requisições
 
-Podemos entender que através do Twig podemos realizar requisições do backend de uma loja Nuvemshop para mostrar no frontend.
+```{% include "snipplets/notification.tpl" with {order_notification: true} %}```
+```{% include "snipplets/svg/search.tpl" with {svg_custom_class: "icon-inline svg-icon-text"} %}```
 
-## Produto
-```{{ product.name }}``` Mostra o nome do produto
-```{{ product.price | money }}``` Mostra o preço do produto com a formatação de R$
-```{{ product | json_encode }}``` Mostra todas as opções que tem dentro do objeto
+```{% snipplets "product/product-form.tpl" %}```
 
-## Categoria
-```{{ category.name }}``` Mostra o nome da categoria
-```{{ category.handle }}``` Mostra o slug da categoria
-```{{ category | json_encode }}``` Mostra todas as opções que tem dentro do objeto
-
-## Configurações
-```{{ settings.meucampopersonalizado }}``` Mostra o conteúdo do campo "meucampopersonalizado" criado em settings.txt
-
-https://docs.nuvemshop.com.br/help/nosso-cdigo-objetos
+```
+{% embed "snipplets/forms/form-select.tpl" with{select_label: false, select_custom_class: 'js-sort-by'} %}
+    {% block select_options %}
+        <option value="1">{{ 'texto 1' | translate }}</option>
+        <option value="2">{{ 'texto 2' | translate }}</option>
+        <option value="3">{{ 'texto 3' | translate }}</option>
+        <option value="4">{{ 'texto 4' | translate }}</option>
+    {% endblock select_options%}
+{% endembed %}
+```
