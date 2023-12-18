@@ -4,7 +4,7 @@
 
 ```
 Personalização
-    i18n_input
+	i18n_input
 		name = bannersstories_title
 		description = Título da seção de banners stories
 	subtitle
