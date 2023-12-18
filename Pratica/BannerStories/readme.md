@@ -18,5 +18,7 @@ Personalização
 ```
 
 ## HTML
+(bannerStories.tpl)[https://github.com/NossoDev/DoPrototipoAoSucesso/blob/main/Pratica/BannerStories/bannerStories.tpl]
 
 ## JavaScript
+(bannerStories.js.tpl)[https://github.com/NossoDev/DoPrototipoAoSucesso/blob/main/Pratica/BannerStories/bannerStories.js.tpl]
