@@ -2,7 +2,7 @@
 
 ## Settings
 
-´´´
+```
 Personalização
     i18n_input
 		name = bannersstories_title
@@ -15,7 +15,7 @@ Personalização
 		gallery_link = [Opcional] Página web a la que quieres que te lleve la imagen al hacer click
 		gallery_width = 500
 		gallery_more_info = true
-´´´
+```
 
 ## HTML
 
